@@ -803,7 +803,7 @@ end
 			local e_index = findNext( wGenList.weather, 	cT )
 			local i_index = findNext( wGenList.wind, 		cT )
 			local t_index = findNext( wGenList.temperature, cT )
-			PrintTable (wGenList.temperature)
+			-- PrintTable (wGenList.temperature) -- potentially revisit this later
 			if weather_index~= e_index then
 				weather_index = e_index
 				local w_data = wGenList.weather[e_index]
