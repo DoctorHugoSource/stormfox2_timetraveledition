@@ -442,7 +442,7 @@ function StormFox2.WeatherGen.DrawForecast(w,h,bExpensive, offX, offY)
 			local _12 = StormFox2.Setting.Get("12h_display", false)
 			local z = 0
 			for i, data in pairs( forecast.weather ) do
-				-- print (forecast.weather)  -- potentially revisit sometime
+				-- print (forecast.weather)  -- potentially revisit sometime     d
 				local unixT = data[1] or 0
 				if unixT < curTim then continue end
 				z = z + 1
